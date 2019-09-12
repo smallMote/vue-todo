@@ -1,0 +1,33 @@
+{
+  "name": "vue-todo",
+  "version": "1.0.0",
+  "description": "'定制化vue项目'",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallMote/vue-todo.git"
+  },
+  "author": "wlittleyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smallMote/vue-todo/issues"
+  },
+  "homepage": "https://github.com/smallMote/vue-todo#readme",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "vue": "2.6.10",
+    "vue-loader": "15.7.1",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.3.8"
+  }
+}
